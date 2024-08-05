@@ -1,0 +1,533 @@
+/* Add here all your CSS customizations */
+#error {
+  background: url("/Content/img/banner-login.png") no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  z-index: 2000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.popup img {
+  width: 50%;
+}
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+.text-red {
+  color: #ff0000 !important;
+}
+:root {
+  --danger: #0054a6 !important;
+}
+html:not(.sticky-header-active)
+  #header.header-semi-transparent-dark
+  .header-body {
+  background-color: #fff !important;
+}
+#header .header-nav-links.header-nav-light-text nav > ul > li > a,
+#header .header-nav-line.header-nav-light-text nav > ul > li > a {
+  color: var(--danger);
+}
+#header .header-nav-links.header-nav-light-text nav > ul > li:hover > a,
+#header .header-nav-line.header-nav-light-text nav > ul > li:hover > a {
+  color: var(--gray);
+  background-color: transparent;
+}
+.bg-danger {
+  background-color: var(--danger) !important;
+}
+.text-danger {
+  color: var(--danger) !important;
+}
+.border-danger {
+  border-color: var(--danger) !important;
+}
+.bg-red {
+  background-color: #e32525;
+}
+.bg-new-blue {
+  background-color: #0054a6 !important;
+}
+.bg-blue-light {
+  background-color: #7ad2f8;
+}
+.text-new-blue {
+  color: #0054a6 !important;
+}
+.text-blue-light {
+  color: #7ad2f8;
+}
+.text-new-red {
+  color: #e32525 !important;
+}
+body {
+  color: #444 !important;
+  padding-right: 0 !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #444 !important;
+}
+a {
+  text-decoration: none !important;
+}
+.mod-text-gray {
+  color: #444 !important;
+}
+.text-gray {
+  color: var(--gray);
+}
+.mod-rounded {
+  border: 2px solid;
+  border-radius: 50px;
+  padding: 8px 20px;
+}
+.fit-image {
+  object-fit: cover;
+}
+.new-table td,
+.new-table th {
+  padding: 5px !important;
+}
+
+#academia-treinamentos table th {
+  width: 120px;
+}
+
+table.table td:nth-child(1) {
+  text-align: left !important;
+}
+
+#collapse-01 table {
+  font-family: "Calibri", sans-serif !important;
+}
+#collapse-01 table th:nth-child(1) {
+  text-align: left !important;
+}
+#collapse-01 table td:nth-child(2),
+#collapse-01 table td:nth-child(3) {
+  text-align: right !important;
+}
+
+#collapse-06 table td:nth-child(1),
+#collapse-06 table td:nth-child(2) {
+  text-align: left !important;
+}
+
+#collapse-08 table td:nth-child(1) {
+  text-align: center !important;
+}
+#collapse-08 table td:nth-child(2) {
+  text-align: left !important;
+}
+#collapse-08 table:nth-child(2) td:nth-child(1) {
+  text-align: left !important;
+}
+#collapse-08 table:nth-child(2) td:nth-child(2) {
+  text-align: center !important;
+}
+
+#modal_detalhesBateuLevou td:nth-child(1),
+#modal_detalhesBateuLevou td:nth-child(2) {
+  text-align: left;
+}
+#modal_detalhesBateuLevou td:last-child {
+  text-align: center !important;
+}
+
+#login,
+.acessoFake {
+  background: url(../img/banner-login.png) no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+#modal_moedas table th:nth-child(1),
+#modal_moedas table th:nth-child(3),
+#modal_moedas table td:nth-child(1),
+#modal_moedas table td:nth-child(3) {
+  text-align: center !important;
+}
+
+.new-btn {
+  border: 2px solid #e32525;
+  color: #e32525;
+}
+.new-btn:hover {
+  background-color: #e32525;
+  color: #fff;
+}
+
+.border-top-red {
+  border-top-color: #e32525 !important;
+}
+.border-top-blue {
+  border-top-color: #0054a6 !important;
+}
+
+/* --- header --- */
+header {
+  max-height: 154px;
+}
+header .header-container {
+  border-bottom: 2px solid var(--danger);
+}
+
+header .border-danger {
+  border-bottom-width: 2px !important;
+  border-right-width: 2px !important;
+}
+header ul#mainNav li a {
+  font-size: 13px !important;
+  padding: 9px !important;
+  line-height: 15px;
+}
+#header .header-btn-collapse-nav {
+  background-color: var(--danger);
+}
+#header .header-nav-main.header-nav-main-mobile-dark:before {
+  background-color: #ffffff !important;
+  border-left: 1px solid var(--danger) !important;
+  border-right: 1px solid var(--danger) !important;
+  border-bottom: 2px solid var(--danger) !important;
+}
+header .header-logo img {
+  max-width: 260px;
+}
+
+/* --- breadcrumb --- */
+section.new-breadcrumb {
+  background: url(../img/img-breadcrumb.png) no-repeat center center;
+  /*background-color: #7ad2f8;*/
+  background-size: cover;
+  height: 50px;
+}
+
+/* --- Home --- */
+.home-intro {
+  background-color: var(--gray);
+}
+.home-intro i.fas,
+.home-intro i.far,
+.home-intro i.fab {
+  color: var(--gray) !important;
+  transition: 0.4s;
+}
+
+.home-intro i.fas:hover,
+.home-intro i.far:hover,
+.home-intro i.fab:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+.home-intro i.fa-whatsapp {
+  font-size: 32px !important;
+}
+
+.conteudo {
+  background-color: #e5e5e5;
+}
+.conteudo .col-12 a {
+  background-color: #888;
+  color: #fff;
+  font-weight: bolder;
+  /*padding: 6px 20px;*/
+}
+
+.testimonial .testimonial-author img {
+  max-width: 350px !important;
+}
+
+#hall-fama .owl-carousel img {
+  height: 180px;
+  object-fit: cover;
+}
+
+/* --- Pontuacao --- */
+
+/* --- Page Biblioteca de conteudos, Page Academia, Page Novidades --- */
+#artigos .row h3 {
+  color: var(--danger);
+}
+#artigos .row img {
+  width: 100% !important;
+  max-height: 250px !important;
+  object-fit: cover;
+  border: 5px solid var(--danger) !important;
+}
+
+/* --- Eventos --- */
+#page-eventos .nav-pills > li > a,
+#page-eventos .nav-pills .nav-link {
+  border: 2px solid #444;
+  border-radius: 20px;
+  margin: auto 5px;
+
+  /*background-color: transparent!important;*/
+  /*color: var(--danger)!important;*/
+}
+#page-eventos .nav-pills > li.active > a,
+#page-eventos .nav-pills .nav-link.active {
+  background-color: var(--danger) !important;
+  color: var(--white) !important;
+  border: 2px solid var(--danger);
+}
+
+/* --- Fale Conosco --- */
+.bg-dark-gray {
+  background-color: #616f79;
+}
+
+/* --- Footer --- */
+footer {
+  border-top: 4px solid #0054a6 !important;
+  /*background-color: #0054A6!important;*/
+}
+footer .navbar-light .navbar-toggler {
+  border: 2px solid;
+  border-color: #a8b0b3;
+}
+footer .navbar-toggler .fa-bars {
+  color: #a8b0b3;
+}
+footer li a {
+  font-size: 13px !important;
+}
+footer .mod-rounded {
+  padding: 6px 12px !important;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1335px) {
+  #header .header-nav-main nav > ul > li {
+    height: 50%;
+  }
+  #header .header-nav-main nav > ul > li > a {
+    font-size: 14px !important;
+  }
+  .header-nav {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+  .medidorVideo {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  header .header-logo img {
+    width: 150px;
+  }
+  .medidorVideo {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .border-right {
+    border: 0 !important;
+  }
+
+  #carouselExampleIndicators .carousel-inner {
+    margin-top: 1.5rem !important;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  header .header-logo img {
+    width: 160px;
+  }
+  header .header-row .btn-xl {
+    padding: 10px;
+  }
+  section.new-breadcrumb {
+    margin-top: 24px;
+  }
+  .medidorVideo {
+    width: 100%;
+  }
+
+  #carouselExampleIndicators .carousel-inner {
+    margin-top: 3.1rem !important;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  header .header-logo img {
+    width: 125px;
+  }
+  .medidorVideo {
+    width: 100%;
+  }
+  #carouselExampleIndicators .carousel-inner {
+    margin-top: 3.1rem !important;
+  }
+}
+
+/* *
+*
+*
+*
+*
+* */
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.upload-files-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.drag-file-area {
+  border-radius: 40px;
+  text-align: center;
+}
+
+.browse-files {
+  font-size: 19px;
+}
+.browse-files .browse-files-text {
+  color: var(--danger);
+  font-weight: bolder;
+  cursor: pointer;
+  user-select: none;
+}
+.default-file-input {
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.file-block {
+  color: #fff9f7;
+  background-color: var(--danger);
+  transition: all 1s;
+  display: none;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0 15px;
+  border-radius: 25px;
+  user-select: none;
+  cursor: initial;
+}
+
+.file-block:hover {
+  color: #fff9f7;
+  background-color: #7ad2f8;
+}
+
+.file-info {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+.file-icon {
+  margin-right: 10px;
+}
+.file-name,
+.file-size {
+  padding: 0 3px;
+}
+.remove-file-icon {
+  cursor: pointer;
+}
+/* *
+*
+*
+* */
+.form-container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.upload-files-container1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.drag-file-area1 {
+  border-radius: 40px;
+  text-align: center;
+}
+
+.browse-files1 {
+  font-size: 19px;
+}
+.browse-files1 .browse-files-text1 {
+  color: var(--danger);
+  font-weight: bolder;
+  cursor: pointer;
+  user-select: none;
+}
+.default-file-input1 {
+  opacity: 0;
+}
+
+.file-block1 {
+  color: #fff9f7;
+  background-color: var(--danger);
+  transition: all 1s;
+  display: none;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0 15px;
+  border-radius: 25px;
+  user-select: none;
+  cursor: initial;
+}
+
+.file-block1:hover {
+  color: #fff9f7;
+  background-color: #7ad2f8;
+}
+
+.file-info1 {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+}
+.file-icon1 {
+  margin-right: 10px;
+}
+.file-name1,
+.file-size1 {
+  padding: 0 3px;
+}
+.remove-file-icon1 {
+  cursor: pointer;
+}
+.bg-lightest-blue {
+  background-color: #00a1c00d;
+}
+
+.text-indentation{
+    margin-left: 30px;
+}

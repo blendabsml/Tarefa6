@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - Tarefa 6</title>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="~/Content/css/theme.css">
+    <link rel="stylesheet" href="~/Content/css/theme-elements.css">
+    <link rel="stylesheet" href="~/Content/css/default.css">
+    <link rel="stylesheet" href="~/Content/css/custom.css">
+    <link rel="stylesheet" href="~/Content/css/style.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header id="header" class="position-relative" style="height:148px!important;">
+        <div class="header-body border-0 box-shadow-none">
+            <div class="header-container header-container-height-sm container-fluid border-0">
+                <div class="header-row" style="background-color:#1c2120; max-height: 182px" ;>
+                    <div class="header-column">
+                        <div class="header-row">
+                            <div class="header-logo">
+                                <a href="#">
+                                    <img src="~/Content/img/Logo.png" class="img-fluid" style="width: 70%">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-column justify-content-end">
+                        <div class="header-row">
+                            <div class="header-nav header-nav-line header-nav-bottom-line header-nav-bottom-line-effect-1 order-2 order-lg-1">
+                                <div class="header-nav-main header-nav-main-square header-nav-main-dropdown-no-borders header-nav-main-effect-2 header-nav-main-sub-effect-1">
+                                    <nav class="collapse">
+                                        <ul class="nav nav-pills" id="mainNav">
+
+                                            <li>
+                                                <a class="nav-link text-uppercase text-3" href="#" style="color: #fff">Produtos</a>
+                                            </li>
+                                            <li>
+                                                <a class="nav-link text-uppercase text-3" href="#" style="color: #fff">Sobre</a>
+                                            </li>
+                                            <li>
+                                                <a class="nav-link text-uppercase text-3" href="#" style="color: #fff">Contato</a>
+                                            </li>
+                                            <li>
+                                                <a class="nav-link text-uppercase text-3" href="#" style="color: #fff"> <img src="~/Content/img/carrinho.jpg" alt="Carrinho de Compras" style="width: 60px"><span id="carrinho-contador" style="color: #fff">0</span> </a>
+                                                
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <br />
+    <br />
+    <main role="main" class="container">
+        @RenderBody()
+    </main>
+    <footer style="text-align: center">
+        <p>© 2024 Blenda Boutique. Todos os direitos reservados.</p>
+            <a href="#privacidade">Política de Privacidade | </a>
+            <a href="#termos">Termos de Uso</a>
+        <div class="social-links">
+            <a href="https://facebook.com" target="_blank">Facebook |</a>
+            <a href="https://twitter.com" target="_blank">Twitter |</a>
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+        </div>
+    </footer>
+</body>
+</html>
+<script src="~/Scripts/jquery-3.7.0.min.js></script>
+<script src="~/Scripts/bootstrap.min.js"></script>

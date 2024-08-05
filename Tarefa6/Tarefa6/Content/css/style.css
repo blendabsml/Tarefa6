@@ -1,0 +1,59 @@
+﻿body {
+    font-family: 'Arial';
+}
+
+.text-red {
+    color: #c00545;
+}
+
+.bg-red {
+    background-color: #c00545;
+}
+
+.informativo,
+.bg-dark-gray {
+    background-color: #616f79;
+}
+
+.miolo h3 {
+    color: var(--gray);
+}
+
+.miolo a.btn {
+    background-color: var(--gray);
+}
+
+.contatos {
+    background-color: #e7eaeb;
+}
+
+    .contatos hr {
+        height: 3px;
+        width: 20%;
+    }
+
+@media screen and (max-width: 768px) {
+    h3 {
+        font-size: 25px;
+    }
+
+    .banner img {
+        height: 300px !important;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    h3 {
+        font-size: 20px;
+    }
+
+    .banner img {
+        height: 200px !important;
+        object-fit: cover;
+    }
+
+    .miolo a {
+        font-size: 16px;
+    }
+}
